@@ -1,2 +1,2 @@
 # xpath2loffice
-import XPath expressions into Libre/Open Office documents
+import XML data into Libre/Open Office documents via XPath expressions.
