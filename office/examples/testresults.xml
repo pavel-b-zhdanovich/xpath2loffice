@@ -1,0 +1,69 @@
+<test testdate="01.01.2017" testnum="12345"
+	testname="Тест физических показателей" stages="2" >
+	<grp1results>
+		<result varnum="17" varname="Бег 100 м" value1="16.10"
+			interval1="4" value2="16.23" interval2="4" />
+		<result varnum="18" varname="Бег 2-3 км" value1="11.59"
+			interval1="4" value2="11.81" interval2="3" />
+		<result varnum="13" varname="Время 10 хлопков" value1="6.00"
+			interval1="4" value2="6.30" interval2="4" />
+		<result varnum="301" varname="Гибкость" value1="20.00"
+			interval1="4" value2="19.25" interval2="4" />
+		<result varnum="20" varname="Задержка дыхания" value1="19.00"
+			interval1="2" value2="20.25" interval2="2" />
+		<result varnum="14" varname="Прыжок в длину с места" value1="180.00"
+			interval1="4" value2="178.00" interval2="4" />
+		<result varnum="21" varname="Равновесие" value1="25.00"
+			interval1="4" value2="40.25" interval2="4" />
+		<result varnum="16" varname="Силовой норматив" value1="50.00"
+			interval1="4" value2="57.00" interval2="5" />
+		<result varnum="19" varname="Статическая  выносливость" value1="133.00"
+			interval1="4" value2="138.25" interval2="4" />
+		<result varnum="15" varname="Челночный бег" value1="25.30"
+			interval1="3" value2="23.82" interval2="4" />
+	</grp1results>
+	<grp2results>
+		<result varnum="17" varname="Бег 100 м" value1="16.10"
+			interval1="4" value2="16.64" interval2="4" >Комментарий1</result>
+		<result varnum="18" varname="Бег 2-3 км" value1="11.59"
+			interval1="4" value2="12.88" interval2="3" />
+		<result varnum="13" varname="Время 10 хлопков" value1="6.00"
+			interval1="4" value2="6.23" interval2="4" />
+		<result varnum="301" varname="Гибкость" value1="20.00"
+			interval1="4" value2="15.63" interval2="4" >Комментарий2</result>
+		<result varnum="20" varname="Задержка дыхания" value1="19.00"
+			interval1="2" value2="22.74" interval2="2" >Комментарий3</result>
+		<result varnum="14" varname="Прыжок в длину с места" value1="180.00"
+			interval1="4" value2="169.33" interval2="4" />
+		<result varnum="21" varname="Равновесие" value1="25.00"
+			interval1="4" value2="19.01" interval2="4" />
+		<result varnum="16" varname="Силовой норматив" value1="50.00"
+			interval1="4" value2="51.18" interval2="4" />
+		<result varnum="19" varname="Статическая  выносливость" value1="133.00"
+			interval1="4" value2="131.44" interval2="4" />
+		<result varnum="15" varname="Челночный бег" value1="25.30"
+			interval1="3" value2="24.48" interval2="4" />
+	</grp2results>
+	<grp3results>
+		<result varnum="17" varname="Бег 100 м" value1="16.10"
+			interval1="4" value2="16.63" interval2="4" />
+		<result varnum="18" varname="Бег 2-3 км" value1="11.59"
+			interval1="4" value2="11.59" interval2="3" />
+		<result varnum="13" varname="Время 10 хлопков" value1="6.00"
+			interval1="4" value2="6.13" interval2="4" />
+		<result varnum="301" varname="Гибкость" value1="20.00"
+			interval1="4" value2="17.29" interval2="4" />
+		<result varnum="20" varname="Задержка дыхания" value1="19.00"
+			interval1="2" value2="22.72" interval2="2" />
+		<result varnum="14" varname="Прыжок в длину с места" value1="180.00"
+			interval1="4" value2="176.43" interval2="4" />
+		<result varnum="21" varname="Равновесие" value1="25.00"
+			interval1="4" value2="18.96" interval2="4" />
+		<result varnum="16" varname="Силовой норматив" value1="50.00"
+			interval1="4" value2="51.37" interval2="4" />
+		<result varnum="19" varname="Статическая  выносливость" value1="133.00"
+			interval1="4" value2="131.29" interval2="4" />
+		<result varnum="15" varname="Челночный бег" value1="25.30"
+			interval1="3" value2="23.95" interval2="4" />
+	</grp3results>
+</test>
