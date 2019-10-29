@@ -28,12 +28,11 @@ public class OfficeRuntime implements IOfficeUnoRuntime {
 		String ooofolder= settings.OFFICE_EXEC_PATH;
 		System.out.println("OFFICE_EXEC_PATH="+settings.OFFICE_EXEC_PATH);
 		System.out.println("ooofolder="+ooofolder);
-        List<String> oooOptions = OOoServer.getDefaultOOoOptions();
-        oooOptions.add("--nofirststartwizard");
-        if (isHidden) {oooOptions.add("--headless");}
-        OOoServer oooServer = new OOoServer(ooofolder, oooOptions);
+        List<String> options = OOoServer.getDefaultOOoOptions();
+        options.add("--nofirststartwizard");
+        if (isHidden) {options.add("--headless");}
+        OOoServer oooServer = new OOoServer(ooofolder, options);
 
-        // Connect to OOo
         BootstrapSocketConnector bootstrapSocketConnector = new BootstrapSocketConnector(oooServer);
         XComponentContext xRemoteContext;
 		try {
@@ -42,8 +41,6 @@ public class OfficeRuntime implements IOfficeUnoRuntime {
 			e.printStackTrace();
 			throw new Exception(); 
 		}
-		//XComponentContext xRemoteContext = BootstrapSocketConnector.bootstrap(ooofolder,"127.0.0.1",8100); 
-			//Bootstrap.bootstrap();
 		if (xRemoteContext == null) {
 	         System.err.println("ERROR: Could not bootstrap default Office.");}
 	    return xRemoteContext;
