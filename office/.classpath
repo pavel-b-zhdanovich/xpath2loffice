@@ -3,5 +3,6 @@
 	<classpathentry excluding="iv/utils/various/" kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/office_lib"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/apache commons"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

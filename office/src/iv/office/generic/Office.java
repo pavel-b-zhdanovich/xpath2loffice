@@ -101,7 +101,7 @@ public class Office {
 			try {
 				System.out.println(property.Name+"="+propSet.getPropertyValue(property.Name));
 			} catch (UnknownPropertyException e) {
-				System.out.println(property.Name+"is UNKNOWN!");
+				System.err.println(property.Name+"is UNKNOWN!");
 			}
 		}
 	}
